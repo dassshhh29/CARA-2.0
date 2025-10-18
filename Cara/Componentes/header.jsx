@@ -15,11 +15,11 @@ const Header = () => {
       {/* NAVBAR */}
       <div>
         <ul id="navbar" className={menuOpen ? "active" : ""}>
-          <li><Link to="/" className="active">Home</Link></li>
-          <li><Link to="/shop">Shop</Link></li>
+          <li><Link to="/" className="active">Inicio</Link></li>
+          <li><Link to="/shop">Tienda</Link></li>
           <li><Link to="/blog">Blog</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/about">Acerca de</Link></li>
+          <li><Link to="/contact">Contacto</Link></li>
 
           {/* CIERRE DEL MENÚ EN MÓVIL */}
           <li>
@@ -45,7 +45,7 @@ const Header = () => {
         </Link>
 
         <Link to="/login">
-          <button id="login-btn">Iniciar Sesión</button>
+          <button id="login-btn">Iniciar sesión</button>
         </Link>
       </div>
 
